@@ -2,8 +2,8 @@
   "driver": {
     "browser": "chrome",
     "remote_url": "",
-    "wait_time": 10,
-    "page_load_wait_time": 0,
+    "wait_time": 30,
+    "page_load_wait_time": 30,
     "options": [],
     "capabilities": {},
     "version": "latest",

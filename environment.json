@@ -1,0 +1,27 @@
+{
+    "app": {
+        "api": {
+            "dev": {
+                "url": ""
+            },
+            "stg": {
+                "url": ""
+            },
+            "prd": {
+                "url": ""
+            }
+        },
+       "ui": {
+           "stg": {
+               "url": "https://staging.mainteny.com/auth/login",
+               "username": "engineering@mainteny.com",
+               "password": "Mainteny@2021"
+           },
+           "prd": {
+               "url": "",
+               "username": "",
+               "password": ""
+           }
+       }
+   }
+}
