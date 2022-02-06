@@ -1,27 +1,6 @@
-[tool.pytest.ini_options]
-addopts = '-ra --strict-markers --junit-xml=test_artifacts/results.xml --html=test_artifacts/report.html --disable-pytest-warnings --self-contained-html'
-log_cli=true
-log_cli_date_format = '%Y-%m-%d %H:%M:%S'
-junit_logging = 'log'
-junit_duration_report = 'call'
-
 markers = [
 	"node_api: tests used to validate the backend app API",
 	"node_api_smoke: smoke tests for the backend app API",
 	"ui: tests marked to test the UI",
 	"ui_smoke: tests marked to smoke test the UI",
-    ]
-
-[tool.pylint]
-    [tool.pylint.master]
-    ignore=['CVS']
-    jobs=0
-    persistent=['yes']
-    unsafe-load-any-extension=['no']
-
-    [tool.pylint.'MESSAGES CONTROL']
-    disable=[
-        'invalid-name',
-        'too-many-instance-attributes',
-        'wrong-import-order'
     ]
