@@ -1,0 +1,11 @@
+pyleniumio>=1.14.1
+pylenium>=1.0
+requests==2.27.1
+urllib3~=1.26.6
+selenium>=4.1.0
+pytest==7.0.0
+pytest-html>=3.1.1
+JayDeBeApi==1.2.3
+webdriver-manager==3.5.2
+pytest-xdist==2.5.0
+pytest-xdist==2.5.0
