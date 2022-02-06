@@ -15,7 +15,7 @@
            "stg": {
                "url": "https://staging.mainteny.com/auth/login",
                "username": "engineering@mainteny.com",
-               "password": "Mainteny@2021"
+               "password": ""
            },
            "prd": {
                "url": "",
