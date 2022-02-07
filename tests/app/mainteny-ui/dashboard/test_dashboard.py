@@ -4,7 +4,7 @@ import pytest
 
 @pytest.mark.ui
 @pytest.mark.ui_smoke
-def test_dashboard(_user_login, frontend):
+def test_pending_orders(_user_login, frontend):
     """ Verify the pending orders in Dashboard."""
     expected_pending_orders = '55'
     frontend.py.wait(use_py=True).sleep(3)
