@@ -1,5 +1,5 @@
 # Keeper
-- Mainteny.com automation framework
+- A automation framework
 - Performance measurements
 - UI E2E testing
 
