@@ -1,5 +1,5 @@
 # Keeper
-- A automation framework
+- An automation framework
 - Performance measurements
 - UI E2E testing
 
